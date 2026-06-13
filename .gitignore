@@ -1,0 +1,19 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node / frontend build
+anvil/frontend/node_modules/
+anvil/frontend/dist/
+
+# anvil persistent memory is runtime state, not source
+anvil/memory/rules.md
+anvil/memory/failures.jsonl
+
+# accumulated runtime data: per-build records, API logs, learned KB
+anvil/data/
+
+# env
+.env

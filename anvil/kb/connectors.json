@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cable-jst-gh-4",
+    "subsystem": "connector",
+    "name": "JST-GH 4-pin Cable Assembly",
+    "vendor": "JST",
+    "part_number": "GHR-04V-S",
+    "source": "kb",
+    "mass_g": 3.0,
+    "dims_mm": [100.0, 5.0, 2.0],
+    "temp_op_C": [-25.0, 85.0],
+    "connector_mates": ["JST-GH-4"],
+    "cost_usd": 2.0,
+    "lead_time_weeks": 1.0
+  },
+  {
+    "id": "cable-ufl-rp",
+    "subsystem": "connector",
+    "name": "U.FL to RP-SMA Pigtail",
+    "vendor": "Amphenol",
+    "part_number": "U.FL-2LP-068",
+    "source": "kb",
+    "mass_g": 2.0,
+    "dims_mm": [120.0, 4.0, 2.0],
+    "temp_op_C": [-40.0, 90.0],
+    "connector_mates": ["U.FL"],
+    "cost_usd": 3.0,
+    "lead_time_weeks": 1.0
+  }
+]
