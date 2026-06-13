@@ -12,8 +12,11 @@ anvil/frontend/dist/
 anvil/memory/rules.md
 anvil/memory/failures.jsonl
 
-# accumulated runtime data: per-build records, API logs, learned KB
-anvil/data/
+# accumulated runtime data (build records, API logs, learned KB) is intentionally
+# versioned — it's the app's growing history. See README "Data & learning".
 
 # env
 .env
+
+# personal Claude Code session settings (keep launch.json, drop local perms)
+.claude/settings.local.json
