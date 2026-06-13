@@ -1,0 +1,2 @@
+{"build_id": "build-20260613-041225-25db", "name": "LogTestDrone", "model": "claude-opus-4-8", "started": "2026-06-13T04:12:25+00:00", "elapsed_s": 95.0, "coverage": 0.9167, "iterations": 6, "all_hard_pass": false, "api_calls": 6}
+{"build_id": "build-20260613-041638-cc37", "name": "Outdoor Inspection Drone Payload", "model": "claude-opus-4-8", "started": "2026-06-13T04:16:38+00:00", "elapsed_s": 0.09, "coverage": 1.0, "iterations": 2, "all_hard_pass": true, "api_calls": 0}

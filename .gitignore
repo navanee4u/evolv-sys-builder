@@ -1,0 +1,18 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node deps (frontend dist IS committed so the cloud needs only pip + uvicorn)
+anvil/frontend/node_modules/
+
+# anvil persistent memory (distilled rules + failure log) and accumulated runtime
+# data (build records, API logs, learned KB) are intentionally versioned — they
+# are the app's growing, self-improving history. See README "Data & learning".
+
+# env
+.env
+
+# personal Claude Code session settings (keep launch.json, drop local perms)
+.claude/settings.local.json

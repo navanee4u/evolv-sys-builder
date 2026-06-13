@@ -1,0 +1,15 @@
+# One-click deploy to Render — https://render.com
+# New + → Blueprint → connect this repo → set ANTHROPIC_API_KEY → Deploy.
+# Pure Python: the built frontend is committed, so no Node step is needed.
+services:
+  - type: web
+    name: anvil
+    runtime: python
+    plan: free
+    buildCommand: pip install -r anvil/backend/requirements.txt
+    startCommand: uvicorn anvil.backend.server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false          # set this as a secret in the Render dashboard
+      - key: PYTHON_VERSION
+        value: "3.12.7"

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "enclosure-ip67-120",
+    "subsystem": "mechanical",
+    "name": "IP67 Sealed Enclosure 120x80x40",
+    "vendor": "Hammond",
+    "part_number": "1554F2GYCL",
+    "source": "kb",
+    "ip_rating": "IP67",
+    "mass_g": 120.0,
+    "dims_mm": [120.0, 80.0, 40.0],
+    "temp_op_C": [-40.0, 85.0],
+    "connector_mates": [],
+    "cost_usd": 40.0,
+    "lead_time_weeks": 2.0
+  },
+  {
+    "id": "enclosure-ip67-90",
+    "subsystem": "mechanical",
+    "name": "IP67 Sealed Enclosure 90x60x30",
+    "vendor": "Hammond",
+    "part_number": "1554C2GYCL",
+    "source": "kb",
+    "ip_rating": "IP67",
+    "mass_g": 85.0,
+    "dims_mm": [90.0, 60.0, 30.0],
+    "temp_op_C": [-40.0, 85.0],
+    "connector_mates": [],
+    "cost_usd": 32.0,
+    "lead_time_weeks": 2.0
+  },
+  {
+    "id": "enclosure-ip54-100",
+    "subsystem": "mechanical",
+    "name": "IP54 Vented Enclosure 100x70x35",
+    "vendor": "Hammond",
+    "part_number": "1591XXATBU",
+    "source": "kb",
+    "ip_rating": "IP54",
+    "mass_g": 90.0,
+    "dims_mm": [100.0, 70.0, 35.0],
+    "temp_op_C": [-20.0, 70.0],
+    "connector_mates": [],
+    "cost_usd": 18.0,
+    "lead_time_weeks": 1.0
+  }
+]
