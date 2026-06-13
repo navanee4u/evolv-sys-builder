@@ -8,12 +8,9 @@ __pycache__/
 anvil/frontend/node_modules/
 anvil/frontend/dist/
 
-# anvil persistent memory is runtime state, not source
-anvil/memory/rules.md
-anvil/memory/failures.jsonl
-
-# accumulated runtime data (build records, API logs, learned KB) is intentionally
-# versioned — it's the app's growing history. See README "Data & learning".
+# anvil persistent memory (distilled rules + failure log) and accumulated runtime
+# data (build records, API logs, learned KB) are intentionally versioned — they
+# are the app's growing, self-improving history. See README "Data & learning".
 
 # env
 .env

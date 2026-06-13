@@ -1,0 +1,15 @@
+{"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12 W budget by 9.4 W.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12 W budget by 9.4 W.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "endurance", "failing_part": "endurance", "reason": "Runtime 2.243 h (48.0 Wh / 21.4 W) below 2.4166666666666665 h.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "mass_budget", "failing_part": "mass_budget", "reason": "Mass 456.0 g exceeds 450 g budget by 6.0 g.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12.0 W budget by 9.4 W.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "size_enclosure", "failing_part": "size_enclosure", "reason": "Board footprint 9976.0 mm^2 exceeds enclosure floor 9600 mm^2 (single-layer packing).", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "sensing", "failing_part": "sensing", "reason": "No camera meets 8.29MP @ 30fps MIPI-CSI; best is imx219-8mp (8.08MP@30.0fps).", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "size_enclosure", "failing_part": "size_enclosure", "reason": "Board footprint 9976.0 mm^2 exceeds enclosure floor 9600 mm^2 (single-layer packing).", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12.0 W budget by 9.4 W.", "fix_applied": "resolved via deterministic re-selection"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via deterministic re-selection"}
+{"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12 W budget by 9.4 W.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via proposer revision"}
