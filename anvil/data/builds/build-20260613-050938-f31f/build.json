@@ -1,0 +1,380 @@
+{
+  "build_id": "build-20260613-050938-f31f",
+  "name": "Athletic Humanoid Runner (5K-capable)",
+  "model": "claude-sonnet-4-6",
+  "requirement": {
+    "name": "Athletic Humanoid Runner (5K-capable)",
+    "power_budget_W": 1500,
+    "runtime_h": 1,
+    "workload_TOPS": 50,
+    "model_footprint_GB": 8,
+    "temp_C": [
+      -5,
+      45
+    ],
+    "ip_rating": "IP54",
+    "mass_budget_g": 49000,
+    "enclosure_mm": [
+      450,
+      300,
+      1600
+    ],
+    "camera": {
+      "mp": 2.3,
+      "fps": 120,
+      "interface": "MIPI-CSI"
+    },
+    "comms": [
+      "5GHz",
+      "UWB"
+    ],
+    "actuation": {
+      "torque_Nm": 120,
+      "continuous_current_A": 40
+    },
+    "rail_voltages_V": null,
+    "notes": ""
+  },
+  "started": "2026-06-13T05:09:38+00:00",
+  "finished": "2026-06-13T05:16:58+00:00",
+  "elapsed_s": 439.84,
+  "coverage": 0.9231,
+  "soft_score": 1.0,
+  "iterations": 6,
+  "all_hard_pass": false,
+  "new_rules": [],
+  "api_calls": 6,
+  "events": 65,
+  "final_bom": {
+    "subsystems": {
+      "compute": [
+        {
+          "id": "jetson-orin-nx-16gb",
+          "subsystem": "compute",
+          "name": "Jetson Orin NX 16GB",
+          "vendor": "NVIDIA",
+          "part_number": "900-13767-0000-000",
+          "source": "kb",
+          "active_power_W": 18.0,
+          "peak_power_W": 25.0,
+          "input_voltage_V": [
+            5.0
+          ],
+          "mass_g": 28.0,
+          "dims_mm": [
+            69.6,
+            45.0,
+            13.0
+          ],
+          "temp_op_C": [
+            -25.0,
+            80.0
+          ],
+          "compute_TOPS": 100.0,
+          "ram_GB": 16,
+          "csi_lanes": 8,
+          "connector_mates": [
+            "JST-GH-4",
+            "MIPI-CSI-22"
+          ],
+          "cost_usd": 599.0,
+          "lead_time_weeks": 8.0
+        }
+      ],
+      "power": [
+        {
+          "id": "web-battery-48v-30ah",
+          "subsystem": "power",
+          "name": "48V 30Ah Li-ion Smart Battery Pack",
+          "vendor": "",
+          "part_number": "",
+          "source": "web",
+          "rails_provided": [
+            48.0
+          ],
+          "battery_Wh": 1440.0,
+          "mass_g": 12000.0,
+          "dims_mm": [
+            300.0,
+            150.0,
+            80.0
+          ],
+          "temp_op_C": [
+            -20.0,
+            60.0
+          ],
+          "connector_mates": [
+            "XT60"
+          ],
+          "cost_usd": 420.0,
+          "lead_time_weeks": 3.0
+        },
+        {
+          "id": "web-pmic-48v-to-5v3v3",
+          "subsystem": "power",
+          "name": "48V\u21925V/3.3V Multi-Rail DC-DC Converter (10A)",
+          "vendor": "",
+          "part_number": "",
+          "source": "web",
+          "active_power_W": 5.0,
+          "peak_power_W": 8.0,
+          "input_voltage_V": [
+            48.0
+          ],
+          "rails_provided": [
+            5.0,
+            3.3
+          ],
+          "rail_current_A": 10.0,
+          "mass_g": 85.0,
+          "dims_mm": [
+            80.0,
+            50.0,
+            25.0
+          ],
+          "temp_op_C": [
+            -40.0,
+            85.0
+          ],
+          "connector_mates": [
+            "XT60",
+            "JST-GH-4"
+          ],
+          "cost_usd": 35.0,
+          "lead_time_weeks": 2.0
+        }
+      ],
+      "sensing": [
+        {
+          "id": "web-ar0234cs-camera",
+          "subsystem": "sensing",
+          "name": "AR0234CS 2.3MP Global Shutter MIPI Camera Module",
+          "vendor": "",
+          "part_number": "",
+          "source": "web",
+          "active_power_W": 0.8,
+          "peak_power_W": 1.2,
+          "input_voltage_V": [
+            5.0
+          ],
+          "mass_g": 7.0,
+          "dims_mm": [
+            30.0,
+            30.0,
+            15.0
+          ],
+          "temp_op_C": [
+            -30.0,
+            85.0
+          ],
+          "csi_lanes": 2,
+          "resolution_mp": 2.3,
+          "fps": 120.0,
+          "interface": "MIPI-CSI",
+          "connector_mates": [
+            "MIPI-CSI-22"
+          ],
+          "cost_usd": 55.0,
+          "lead_time_weeks": 4.0
+        }
+      ],
+      "comms": [
+        {
+          "id": "wifi6e-uwb-combo",
+          "subsystem": "comms",
+          "name": "Wi-Fi 6E + UWB Combo Module",
+          "vendor": "Murata / Qorvo",
+          "part_number": "DWM3000+2BC",
+          "source": "kb",
+          "active_power_W": 1.5,
+          "peak_power_W": 2.0,
+          "input_voltage_V": [
+            3.3
+          ],
+          "mass_g": 6.0,
+          "dims_mm": [
+            30.0,
+            30.0,
+            4.0
+          ],
+          "temp_op_C": [
+            -40.0,
+            85.0
+          ],
+          "radio_bands": [
+            "2.4GHz",
+            "5GHz",
+            "6GHz",
+            "UWB"
+          ],
+          "radio_chains": 2,
+          "connector_mates": [
+            "U.FL"
+          ],
+          "cost_usd": 38.0,
+          "lead_time_weeks": 6.0
+        },
+        {
+          "id": "ant-multiband-uwb",
+          "subsystem": "comms",
+          "name": "Multiband Wi-Fi/UWB Antenna (x2)",
+          "vendor": "Taoglas",
+          "part_number": "FXUB66",
+          "source": "kb",
+          "mass_g": 4.0,
+          "dims_mm": [
+            40.0,
+            8.0,
+            1.0
+          ],
+          "temp_op_C": [
+            -40.0,
+            85.0
+          ],
+          "antenna_bands": [
+            "2.4GHz",
+            "5GHz",
+            "6GHz",
+            "UWB"
+          ],
+          "antenna_count": 2,
+          "connector_mates": [
+            "U.FL"
+          ],
+          "cost_usd": 9.0,
+          "lead_time_weeks": 2.0
+        }
+      ],
+      "actuation": [
+        {
+          "id": "web-cubemars-ak80-64",
+          "subsystem": "actuation",
+          "name": "CubeMars AK80-64 KV80 Integrated Actuator (Motor + Gearbox + FOC Driver + Encoder)",
+          "vendor": "",
+          "part_number": "",
+          "source": "web",
+          "active_power_W": 500.0,
+          "peak_power_W": 1200.0,
+          "input_voltage_V": [
+            48.0
+          ],
+          "mass_g": 850.0,
+          "dims_mm": [
+            95.0,
+            95.0,
+            62.0
+          ],
+          "temp_op_C": [
+            -20.0,
+            80.0
+          ],
+          "torque_Nm": 120.0,
+          "continuous_current_A": 40.0,
+          "stall_current_A": 100.0,
+          "driver_current_A": 40.0,
+          "connector_mates": [
+            "XT60",
+            "JST-GH-4"
+          ],
+          "cost_usd": 599.0,
+          "lead_time_weeks": 3.0
+        }
+      ],
+      "mechanical": [
+        {
+          "id": "enclosure-ip54-100",
+          "subsystem": "mechanical",
+          "name": "IP54 Vented Enclosure 100x70x35",
+          "vendor": "Hammond",
+          "part_number": "1591XXATBU",
+          "source": "kb",
+          "mass_g": 90.0,
+          "dims_mm": [
+            100.0,
+            70.0,
+            35.0
+          ],
+          "temp_op_C": [
+            -20.0,
+            70.0
+          ],
+          "ip_rating": "IP54",
+          "connector_mates": [],
+          "cost_usd": 18.0,
+          "lead_time_weeks": 1.0
+        }
+      ],
+      "connector": [
+        {
+          "id": "cable-ufl-rp",
+          "subsystem": "connector",
+          "name": "U.FL to RP-SMA Pigtail",
+          "vendor": "Amphenol",
+          "part_number": "U.FL-2LP-068",
+          "source": "kb",
+          "mass_g": 2.0,
+          "dims_mm": [
+            120.0,
+            4.0,
+            2.0
+          ],
+          "temp_op_C": [
+            -40.0,
+            90.0
+          ],
+          "connector_mates": [
+            "U.FL"
+          ],
+          "cost_usd": 3.0,
+          "lead_time_weeks": 1.0
+        },
+        {
+          "id": "cable-jst-gh-4",
+          "subsystem": "connector",
+          "name": "JST-GH 4-pin Cable Assembly",
+          "vendor": "JST",
+          "part_number": "GHR-04V-S",
+          "source": "kb",
+          "mass_g": 3.0,
+          "dims_mm": [
+            100.0,
+            5.0,
+            2.0
+          ],
+          "temp_op_C": [
+            -25.0,
+            85.0
+          ],
+          "connector_mates": [
+            "JST-GH-4"
+          ],
+          "cost_usd": 2.0,
+          "lead_time_weeks": 1.0
+        },
+        {
+          "id": "web-xt60-cable",
+          "subsystem": "connector",
+          "name": "XT60 Male-Female Power Cable Assembly (20cm, 12AWG)",
+          "vendor": "",
+          "part_number": "",
+          "source": "web",
+          "mass_g": 18.0,
+          "dims_mm": [
+            200.0,
+            10.0,
+            8.0
+          ],
+          "temp_op_C": [
+            -40.0,
+            120.0
+          ],
+          "connector_mates": [
+            "XT60"
+          ],
+          "cost_usd": 5.0,
+          "lead_time_weeks": 1.0
+        }
+      ]
+    }
+  }
+}

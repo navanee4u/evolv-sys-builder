@@ -13,3 +13,8 @@
 {"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via deterministic re-selection"}
 {"rubric_dim": "power_budget", "failing_part": "power_budget", "reason": "Active draw 21.4 W exceeds 12 W budget by 9.4 W.", "fix_applied": "resolved via proposer revision"}
 {"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 27.0 W exceeds 25.0 W capacity.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "connectors", "failing_part": "connectors", "reason": "Unmated connector(s): MIPI-CSI-22.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "size_enclosure", "failing_part": "size_enclosure", "reason": "Parts too large for enclosure: web-mipi-csi22-cable", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "size_enclosure", "failing_part": "size_enclosure", "reason": "Parts too large for enclosure: web-cable-xt30-power", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "peak_power", "failing_part": "peak_power", "reason": "Rail 5.0V overloaded: peak 17.0 W exceeds 10.0 W capacity.", "fix_applied": "resolved via proposer revision"}
+{"rubric_dim": "size_enclosure", "failing_part": "size_enclosure", "reason": "Board footprint 9976.0 mm^2 exceeds enclosure floor 9600 mm^2 (single-layer packing).", "fix_applied": "resolved via proposer revision"}

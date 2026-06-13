@@ -8,3 +8,4 @@ _General hardware-selection rules learned across runs._
 - Mass-constrained builds: the battery dominates mass -- size it last against remaining budget.
 - Pick the enclosure from the summed board footprint, not the smallest available shell.
 - Verify camera CSI lane count against host SoM lanes, not just resolution/fps.
+- Every inter-board link needs a mating connector pair; add the cable when a mate key is dangling.
