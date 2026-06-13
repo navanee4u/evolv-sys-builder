@@ -4,9 +4,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# node / frontend build
+# node deps (frontend dist IS committed so the cloud needs only pip + uvicorn)
 anvil/frontend/node_modules/
-anvil/frontend/dist/
 
 # anvil persistent memory (distilled rules + failure log) and accumulated runtime
 # data (build records, API logs, learned KB) are intentionally versioned — they
