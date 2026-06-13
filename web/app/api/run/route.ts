@@ -20,7 +20,7 @@ import {
 import type { Requirement, Component, BOM } from "@/lib/types";
 
 export const runtime = "nodejs";
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 // Live KB = seed library + everything learned from past runs (grows over time).
 function liveKb(): Record<string, Component[]> {
